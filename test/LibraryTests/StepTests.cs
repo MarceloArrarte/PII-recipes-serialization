@@ -8,6 +8,7 @@ namespace LibraryTests
         [SetUp]
         public void Setup()
         {
+            System.Globalization.CultureInfo.CurrentCulture = new System.Globalization.CultureInfo("en-US");
         }
 
         [Test]
